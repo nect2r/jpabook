@@ -27,6 +27,7 @@ public class JpaMain {
 
             em.persist(book);
 
+
             tx.commit();
         } catch (Exception e){
             tx.rollback();
